@@ -1,3 +1,9 @@
+# revision 17131
+# category Package
+# catalog-ctan /macros/latex/contrib/fixfoot
+# catalog-date 2010-02-20 00:32:21 +0100
+# catalog-license lppl
+# catalog-version 0.3a
 Name:		texlive-fixfoot
 Version:	0.3a
 Release:	1
@@ -42,6 +48,7 @@ page (LaTeX needs to be run several times to achieve this).
 %doc %{_texmfdistdir}/doc/latex/fixfoot/fixfoot.pdf
 %doc %{_texmfdistdir}/doc/latex/fixfoot/fixfoot.tex
 %doc %{_texmfdistdir}/doc/latex/fixfoot/testfix.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ page (LaTeX needs to be run several times to achieve this).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
