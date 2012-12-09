@@ -49,3 +49,17 @@ page (LaTeX needs to be run several times to achieve this).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.3a-2
++ Revision: 751913
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.3a-1
++ Revision: 718447
+- texlive-fixfoot
+- texlive-fixfoot
+- texlive-fixfoot
+- texlive-fixfoot
+
