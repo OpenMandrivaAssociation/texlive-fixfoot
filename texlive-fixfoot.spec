@@ -6,7 +6,7 @@
 # catalog-version 0.3a
 Name:		texlive-fixfoot
 Version:	0.3a
-Release:	7
+Release:	8
 Summary:	Multiple use of the same footnote text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fixfoot
