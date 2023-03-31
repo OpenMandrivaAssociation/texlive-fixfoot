@@ -1,6 +1,6 @@
 Name:		texlive-fixfoot
 Version:	17131
-Release:	1
+Release:	2
 Summary:	Multiple use of the same footnote text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fixfoot
